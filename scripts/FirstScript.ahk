@@ -16,14 +16,16 @@ Return
     Send ¿
 Return
 
-;E01: 1
+;E01: 1 and !
 1::
-    if GetKeyState("CapsLock", "T") = 1
-        Send {{}
-    else 
+    If (GetKeyState(Capslock, T) = "1")
+    {
         Send 1
-
-Return
+        Return
+    } else {
+        Send {Raw}{
+        Return
+    }
 
 !::
     Send 1
