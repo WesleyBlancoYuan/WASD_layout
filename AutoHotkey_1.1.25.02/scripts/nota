@@ -1,0 +1,198 @@
+# 				Win (Windows logo key) 
+! 				Alt 
+^ 				Control 
++ 				Shift 
+&  				An ampersand may be used between any two keys or mouse buttons to combine them into a custom hotkey.
+
+All special keys name:
+
+List of Keys, Mouse Buttons, and Joystick Controls
+
+Mouse
+
+
+General
+
+
+
+
+LButton Left mouse button 
+RButton Right mouse button 
+MButton Middle or wheel mouse button 
+
+Advanced
+
+
+
+
+XButton1 4th mouse button. Typically performs the same function as Browser_Back. 
+XButton2 5th mouse button. Typically performs the same function as Browser_Forward. 
+
+Wheel
+
+
+
+
+WheelDown Turn the wheel downward (toward you). 
+WheelUp Turn the wheel upward (away from you). 
+WheelLeft
+WheelRight 
+[v1.0.48+]: Scroll to the left or right.
+
+Requires Windows Vista or later. These can be used as hotkeys with some (but not all) mice which have a second wheel or support tilting the wheel to either side. In some cases, software bundled with the mouse must instead be used to control this feature. Regardless of the particular mouse, Send and Click can be used to scroll horizontally in programs which support it.
+ 
+
+Keyboard
+
+Note: The names of the letter and number keys are the same as that single letter or digit. For example: b is the "b" key and 5 is the "5" key.
+
+
+General
+
+
+
+
+CapsLock Caps lock 
+Space Space bar 
+Tab Tab key 
+Enter (or Return) Enter key 
+Escape (or Esc) Esc key 
+Backspace (or BS) Backspace 
+
+
+Cursor Control
+
+ScrollLock Scroll lock 
+Delete (or Del) Delete key 
+Insert (or Ins) Insert key 
+Home Home key 
+End End key 
+PgUp Page Up key 
+PgDn Page Down key 
+Up Up arrow key 
+Down Down arrow key 
+Left Left arrow key 
+Right Right arrow key 
+
+Numpad
+
+
+
+
+Due to system behavior, the following keys are identified differently depending on whether NumLock is ON or OFF. If NumLock is OFF but Shift is pressed, the system temporarily releases Shift and acts as though NumLock is ON. 
+NumLock ON 
+NumLock OFF 
+ 
+ 
+Numpad0 
+NumpadIns 0 / Insert key 
+ 
+Numpad1 
+NumpadEnd 1 / End key 
+ 
+Numpad2 
+NumpadDown 2 / Down arrow key 
+ 
+Numpad3 
+NumpadPgDn 3 / Page Down key 
+ 
+Numpad4 
+NumpadLeft 4 / Left arrow key 
+ 
+Numpad5 
+NumpadClear 5 / typically does nothing 
+ 
+Numpad6 
+NumpadRight 6 / Right arrow key 
+ 
+Numpad7 
+NumpadHome 7 / Home key 
+ 
+Numpad8 
+NumpadUp 8 / Up arrow key 
+ 
+Numpad9 
+NumpadPgUp 9 / Page Up key 
+ 
+NumpadDot 
+NumpadDel Decimal separation / Delete key 
+ 
+Not affected by NumLock 
+NumLock Number lock 
+NumpadDiv Divide 
+NumpadMult Multiply 
+NumpadAdd Add 
+NumpadSub Subtract 
+NumpadEnter Enter key 
+
+Function
+
+
+
+
+F1 - F24 The 12 or more function keys at the top of most keyboards. 
+
+Modifier
+
+
+
+
+LWin Left Windows logo key. Corresponds to the <# hotkey prefix. 
+RWin Right Windows logo key. Corresponds to the ># hotkey prefix.
+Note: Unlike Control/Alt/Shift, there is no generic/neutral "Win" key because the OS does not support it. However, hotkeys with the # modifier can be triggered by either Win key. 
+Control (or Ctrl) Control key. As a hotkey (Control::) it fires upon release unless it has the tilde prefix. Corresponds to the ^ hotkey prefix. 
+Alt Alt key. As a hotkey (Alt::) it fires upon release unless it has the tilde prefix. Corresponds to the ! hotkey prefix. 
+Shift Shift key. As a hotkey (Shift::) it fires upon release unless it has the tilde prefix. Corresponds to the + hotkey prefix. 
+LControl (or LCtrl) Left Control key. Corresponds to the <^ hotkey prefix. 
+RControl (or RCtrl) Right Control key. Corresponds to the >^ hotkey prefix. 
+LShift Left Shift key. Corresponds to the <+ hotkey prefix. 
+RShift Right Shift key. Corresponds to the >+ hotkey prefix. 
+LAlt Left Alt key. Corresponds to the <! hotkey prefix. 
+RAlt Right Alt key. Corresponds to the >! hotkey prefix.
+Note: If your keyboard layout has AltGr instead of RAlt, you can probably use it as a hotkey prefix via <^>! as described here. In addition, LControl & RAlt:: would make AltGr itself into a hotkey. 
+
+Multimedia
+
+
+
+
+Browser_Back Back 
+Browser_Forward Forward 
+Browser_Refresh Refresh 
+Browser_Stop Stop 
+Browser_Search Search 
+Browser_Favorites Favorites 
+Browser_Home Homepage 
+Volume_Mute Mute the volume 
+Volume_Down Lower the volume 
+Volume_Up Increase the volume 
+Media_Next Next Track 
+Media_Prev Previous Track 
+Media_Stop Stop 
+Media_Play_Pause Play/Pause 
+Launch_Mail Launch default e-mail program 
+Launch_Media Launch default media player 
+Launch_App1 Launch My Computer 
+Launch_App2 Launch Calculator 
+Note: The function assigned to each of the keys listed above can be overridden by modifying the Windows registry. This table shows the default function of each key on most versions of Windows. 
+
+Special
+
+
+
+
+AppsKey Menu key. This is the key that invokes the right-click context menu. 
+PrintScreen Print screen 
+CtrlBreak 
+ 
+Pause Pause key 
+Break Break key. Since this is synonymous with Pause, use ^CtrlBreak in hotkeys instead of ^Pause or ^Break. 
+Help Help key. This probably doesn't exist on most keyboards. It's usually not the same as F1. 
+Sleep Sleep key. Note that the sleep key on some keyboards might not work with this. 
+SCnnn Specify for nnn the scan code of a key. Recognizes unusual keys not mentioned above. See Special Keys for details. 
+VKnn Specify for nn the hexadecimal virtual key code of a key. This rarely-used method also prevents certain types of hotkeys from requiring the keyboard hook. For example, the following hotkey does not use the keyboard hook, but as a side-effect it is triggered by pressing either Home or NumpadHome: ^VK24::MsgBox You pressed Home or NumpadHome while holding down Control.
+
+
+Select | Download
+Known limitation: VK hotkeys that are forced to use the keyboard hook, such as *VK24 or ~VK24, will fire for only one of the keys, not both (e.g. NumpadHome but not Home). For more information about the VKnn method, see Special Keys. 
+
