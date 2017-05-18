@@ -1,19 +1,31 @@
-﻿`::
-	Send ?
+﻿;E00: ` and ~
+
+`::             ;level 1
+    Send ?
 Return
 
 +`::
-	Send {!}
+    Send {!}    ;level 2
 Return
 
-;>!`::
-;	Send ¿
+;>!`::          ;level 3
+;   Send ¿
 ;Return
 
->!`::
-	Send ¿
+>!`::           ;level 4
+    Send ¿
 Return
 
->!+`::
-	Send ¡
+;E01: 1
+1::
+    if GetKeyState("CapsLock", "T") = 1
+        Send {{}
+    else 
+        Send 1
+
 Return
+
+!::
+    Send 1
+Return
+
